@@ -1,0 +1,82 @@
+.social{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	height: 50px;
+}
+.main{
+	border-right:  1px solid black;
+	border-left:  1px solid black;
+}
+
+
+.sub-modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	height: 40%;
+	margin: 0px auto;
+	overflow: auto;/*enable scholling*/
+	left: 30%;
+	right: 30%;
+	background-color: rgba(0,0,0,0);
+
+}
+
+.modal-content{
+	padding:20px;
+	margin: auto;
+	background-color:lightblue;
+	color: black;
+
+}
+.close{
+	color: grey;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+}
+.close:hover,
+.close:focus{
+	color: red;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+.copyr{
+	grid-area: copy;
+	margin-right: 50%;
+
+}
+
+.policy{
+	grid-area: text;
+	margin: 0px;
+}
+.social-bottom{
+	margin: 0px;
+	grid-area: links;
+}
+.terms{
+	display: grid;
+	grid-area: terms;
+	grid-template-columns: 300px 500px;
+	grid-template-areas: 
+		" links text";
+}
+
+
+.copyR{
+	font-size: 12px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: grid;
+	grid-column-gap: 0px;
+	grid-template-columns: 500px 500px; ;
+	grid-template-areas: 
+		"copy terms";
+}
+.bottom{
+	padding-left: 3%;
+}
