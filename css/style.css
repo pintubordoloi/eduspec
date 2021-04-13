@@ -294,6 +294,20 @@
 	margin:2%;
 	border-radius: 10px;
 	width:1060px;
-	height:1000px;
+	height:auto;
 	
 }
+.mainTitle {
+	font-size: 70px;
+	background-color:#008B8B;
+	color:#7CFC00;
+	padding:20x;
+	margin:10px;
+	border-radius: 10px;
+	width:1060px;
+	height:100px;
+	text-align:center;
+	font-family: 'Times New Roman', serif;
+	
+}
+
